@@ -2,4 +2,4 @@
 
 This is an improved version of my previous lens flare implementation.
 
-Check out this video demo: https://www.youtube.com/edit?video_id=DficeB9wfV0
+Check out this video demo: https://www.youtube.com/watch?v=DficeB9wfV0
