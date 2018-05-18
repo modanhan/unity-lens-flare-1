@@ -71,7 +71,7 @@
 				for (int i = 0; i < samples; i++)
 				{
 					half t = (i + 0.5) / samples;
-					half3 s = tex2Dlod(_MainTex, float4(UnityStereoScreenSpaceUVAdjust(pos, _MainTex_ST), 0, 0)).rgb;
+					half3 s = tex2Dlod(_MainTex, float4(pos, 0, 0)).rgb;
 					half3 filter = tex2Dlod(_ChromaticAberration_Spectrum, float4(t, 0, 0, 0)).rgb;
 
 					sum += s * filter;
