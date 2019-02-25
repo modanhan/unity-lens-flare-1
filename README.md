@@ -1,3 +1,6 @@
+# Update
+For those of you using Unity's new post processing framework (Post Processing Stack v2), here's a quick ported version: https://github.com/modanhan/Unity-Lens-Flare-2019
+
 # unity-lens-flare-1
 
 This is an improved version of my previous lens flare implementation: https://github.com/modanhan/unity-lens-flare
